@@ -1,6 +1,6 @@
+// программа выводит все простые числа до указанного предела 
 class Primes
 {
-    // программа выводит все простые числа до указанного предела
     public static void main(String[] args)
     {
         int limit = 100;
@@ -10,7 +10,7 @@ class Primes
     // метод находит все простые числа до указаного предела
     public static int checkPrimes(int limit)
     {
-        for (int i = 2; i <= limit; ++i)
+        for (int i = 3; i <= limit; ++i)
         {
             if (isPrime(i))
             {
